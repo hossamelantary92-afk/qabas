@@ -129,14 +129,14 @@ function launchFree(game){clearClock();freeType=game;setupKind='free';multiEnabl
 function act(action,id,el){if(action==='home'){clearClock();if(session)session.running=false;save();view='home';return render()}
 if(action==='setup'){clearClock();if(session)session.running=false;save();setupKind='tournament';multiEnabled=true;config.games=GAMES.map(x=>x[0]);config.players=['اللاعب 1','اللاعب 2'];view='setup';return render()}
 if(action==='free'){return launchFree(freeType)}
-if(action==='free-game'){syncSetup();freeType=id;config.games=[id];document.querySelectorAll('[data-action="free-game"]').forEach(b=>{b.classList.toggle('active',b.dataset.id===id);b.setAttribute('aria-pressed',String(b.dataset.id===id))});return}
+if(action==='free-game'){syncSetup();freeType=id;config.games=[id];document.querySelectorAll('[data-action="free-game"]').forEach(b=>{b.classList.toggle('active',b.dataset.id===id);b.setAttribute('aria-pressed',String(b.dataset.id===id))});persistUI();return}
 if(action==='multi'){syncSetup();multiEnabled=id==='group';if(multiEnabled&&config.players.length<2)config.players=['اللاعب 1','اللاعب 2'];return render({preserveScroll:true})}
 if(action==='quick')return launchFree(id);
-if(action==='set-level'){config.level=Number(id);el.closest('details').open=false;let chosen=document.querySelector('#current-level');if(chosen)chosen.textContent=['اختار المستوى','سهل','متوسط','صعب'][config.level];return}
+if(action==='set-level'){config.level=Number(id);el.closest('details').open=false;let chosen=document.querySelector('#current-level');if(chosen)chosen.textContent=['اختار المستوى','سهل','متوسط','صعب'][config.level];persistUI();return}
 if(action==='continue'){view='play';session.finished?view='board':null;return render()}
 if(action==='board'){if(session){clearClock();session.running=false;save();view='board';render()}return}
 if(action==='mode'){syncSetup();config.mode=id;config.players=id==='teams'?['الفريق الأول','الفريق الثاني']:['اللاعب 1','اللاعب 2'];return render({preserveScroll:true})}
-if(action==='toggle-game'){syncSetup();config.games=config.games.includes(id)?config.games.filter(x=>x!==id):[...config.games,id];el.classList.toggle('active',config.games.includes(id));el.setAttribute('aria-pressed',String(config.games.includes(id)));let count=el.closest('details')?.querySelector('.q-count');if(count)count.textContent=`(${config.games.length} مختارة)`;return}
+if(action==='toggle-game'){syncSetup();config.games=config.games.includes(id)?config.games.filter(x=>x!==id):[...config.games,id];el.classList.toggle('active',config.games.includes(id));el.setAttribute('aria-pressed',String(config.games.includes(id)));let count=el.closest('details')?.querySelector('.q-count');if(count)count.textContent=`(${config.games.length} مختارة)`;persistUI();return}
 if(action==='toggle-topic'){syncSetup();changeTopic(id);el.classList.toggle('active',config.topics.includes(id));el.setAttribute('aria-pressed',String(config.topics.includes(id)));let count=el.closest('details')?.querySelector('.q-count');if(count)count.textContent=`(${config.topics.length} مختارة)`;return}
 if(action==='add-player'){syncSetup();if(config.players.length>=12)return notify('ينفع لحد 12 لاعب أو فريق');config.players.push(`${config.mode==='teams'?'الفريق':'اللاعب'} ${config.players.length+1}`);return render({preserveScroll:true})}
 if(action==='delete-player'){syncSetup();if(config.players.length<=2)return notify('خلي معانا اتنين على الأقل');config.players.splice(Number(id),1);return render({preserveScroll:true})}
