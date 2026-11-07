@@ -163,4 +163,17 @@ body{background:radial-gradient(circle at 50% -15%,#174b3a 0%,transparent 43%),#
 @keyframes q-confetti-fall{0%{opacity:0;transform:translate3d(0,-5%,0) rotate(0)}8%{opacity:.9}88%{opacity:.9}100%{opacity:0;transform:translate3d(42px,460px,0) rotate(580deg)}}
 @media(max-width:700px){.q-victory{min-height:347px;padding:42px 13px 30px;border-radius:22px}.q-victory:before{inset:8px;border-radius:16px}.q-victory-trophy{font-size:65px}.q-winner-name{font-size:clamp(33px,9vw,47px)}.q-victory-message{font-size:12px}.q-victory-score{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.q-victory-trophy,.q-confetti i{animation:none!important}.q-confetti i{display:none}}
-</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-12"></script></body></html>
+</style><style>
+/* Home game gallery: three cards on top and two identical-size, centered cards below */
+.game-grid.q-home-games{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}
+.q-home-games>.q-tile{grid-column:span 2;width:100%;min-width:0;height:100%;min-height:195px}
+.q-home-games>.q-tile:nth-child(4){grid-column:2 / span 2}
+.q-home-games>.q-tile:nth-child(5){grid-column:4 / span 2}
+@media(max-width:700px){
+ .game-grid.q-home-games{grid-template-columns:repeat(6,minmax(0,1fr));gap:9px}
+ .q-home-games>.q-tile{min-height:166px}
+}
+@media(max-width:360px){
+ .game-grid.q-home-games{gap:6px}
+}
+</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-13"></script></body></html>
