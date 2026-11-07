@@ -124,4 +124,18 @@ body{background:radial-gradient(circle at 50% -15%,#174b3a 0%,transparent 43%),#
 }
 @media(max-width:400px){.q-brand-divider,.q-brand-descriptor{display:none}.q-header{padding:10px}.q-brand-copy strong{font-size:33px}}
 @media(prefers-reduced-motion:reduce){.q-header-brand{transition:none}}
-</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-10"></script></body></html>
+</style><style>
+/* Tournament: four evenly-sized game cards, two per row */
+.q-tournament-games .q-game-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.q-tournament-games .q-game-card{min-height:166px;padding:20px 16px;border-radius:20px;gap:12px}
+.q-tournament-games .q-game-icon{width:54px;height:54px;font-size:29px;border-radius:17px}
+.q-tournament-games .q-game-meta strong{font-size:16px}
+.q-tournament-games .q-game-meta small{font-size:12px}
+@media(max-width:700px){
+.q-tournament-games .q-game-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.q-tournament-games .q-game-card{min-height:156px;padding:19px 10px 13px;gap:10px;border-radius:17px}
+.q-tournament-games .q-game-icon{width:46px;height:46px;font-size:25px;border-radius:14px}
+.q-tournament-games .q-game-meta strong{font-size:13px}
+.q-tournament-games .q-game-meta small{font-size:10px}
+}
+</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-11"></script></body></html>
