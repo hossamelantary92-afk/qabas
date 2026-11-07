@@ -87,4 +87,41 @@ body{background:radial-gradient(circle at 50% -15%,#174b3a 0%,transparent 43%),#
 .q-select-games .q-count{font-size:11px;font-weight:500;color:#d4bf88;background:#263f31;border:1px solid #76683e65;border-radius:30px;padding:3px 9px}
 .q-game-helper{color:#b9cabb;font-size:12px;line-height:1.65;margin:0 0 12px}
 .q-select-games .q-game-grid{margin-top:0}
-</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-8"></script></body></html>
+</style><style>
+/* Qabas premium identity header — retained compact on mobile */
+.q-header{position:relative;isolation:isolate;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:100px;margin:14px 0 26px;padding:15px 26px;border:1px solid rgba(228,194,121,.37);border-radius:23px;background:radial-gradient(ellipse at 15% 0%,rgba(204,171,95,.15),transparent 48%),linear-gradient(120deg,rgba(21,65,51,.97),rgba(8,31,27,.98));box-shadow:0 14px 34px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,230,170,.12);overflow:hidden;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.q-header::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.24;background:repeating-linear-gradient(135deg,transparent 0 28px,rgba(235,202,126,.085) 29px,transparent 30px);mask-image:linear-gradient(to left,black,transparent 76%);z-index:-1}
+.q-header::after{content:"";position:absolute;inset-inline:26px;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(243,210,141,.7),transparent);pointer-events:none}
+.q-header-brand{display:flex;align-items:center;gap:15px;min-width:0;padding:3px 7px 3px 10px;border-radius:16px;transition:background .22s,transform .22s}
+.q-header-brand:hover{background:rgba(245,211,143,.065)}
+.q-header-brand:active{transform:scale(.99)}
+.q-header-brand:focus-visible{outline:2px solid #f5d99f;outline-offset:4px}
+.q-logo-mark{width:65px;height:65px;flex:0 0 65px;position:relative;border-radius:20px;border:1px solid #d9bc7d8f;background:radial-gradient(circle at 50% 0%,#31745a,#103b32 60%,#09241d);box-shadow:0 7px 22px rgba(0,0,0,.22),inset 0 2px 0 rgba(255,228,160,.15)}
+.q-logo-mark::after{content:"";position:absolute;inset:5px;border:1px solid rgba(230,195,114,.21);border-radius:15px;pointer-events:none}
+.q-logo-mark svg{width:51px;height:51px;filter:drop-shadow(0 0 8px rgba(231,188,98,.23))}
+.q-brand-copy{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:0}
+.q-brand-copy strong{display:block;margin:0;font-family:Amiri,serif;font-weight:700;font-size:43px;line-height:1.1;color:#f7dda4;text-shadow:0 1px 15px rgba(219,179,101,.2)}
+.q-brand-copy small{display:block;direction:ltr;text-align:left;font-size:11px;font-weight:700;line-height:1;letter-spacing:3.9px;color:#c4a76b}
+.q-brand-divider{height:39px;width:1px;flex-shrink:0;margin-inline:7px;background:linear-gradient(transparent,rgba(220,188,122,.6),transparent)}
+.q-brand-descriptor{font-size:13px;font-weight:600;letter-spacing:.2px;color:#e1dbc7;white-space:nowrap}
+.q-header .top-actions{margin-inline-start:auto;display:flex;align-items:center;gap:12px}
+.q-header-ornament{display:grid;place-items:center;height:40px;width:40px;color:#d3b276;font-size:22px;opacity:.75;text-shadow:0 0 19px #d8a65188}
+.q-results-btn{display:flex;align-items:center;gap:9px;height:43px;min-width:unset;padding:8px 16px;border:1px solid rgba(215,181,107,.65);border-radius:13px;background:rgba(193,158,88,.13);color:#f4dcaa;font-size:13px;font-weight:700;white-space:nowrap}
+.q-results-btn:hover{background:rgba(193,158,88,.24)}
+@media(max-width:700px){
+ .q-header{margin:9px 0 19px;min-height:81px;padding:10px 12px;border-radius:18px;gap:7px}
+ .q-header-brand{gap:9px;padding:2px;min-width:0}
+ .q-logo-mark{width:52px;height:52px;flex-basis:52px;border-radius:16px}
+ .q-logo-mark::after{inset:4px;border-radius:12px}
+ .q-logo-mark svg{height:40px;width:40px}
+ .q-brand-copy strong{font-size:34px}
+ .q-brand-copy small{font-size:9px;letter-spacing:2.6px}
+ .q-brand-divider{height:28px;margin-inline:1px}
+ .q-brand-descriptor{font-size:10px}
+ .q-header-ornament{width:22px;height:34px;font-size:17px}
+ .q-results-btn{min-width:40px;height:40px;padding:7px 9px;border-radius:12px}
+ .q-results-label{display:none}
+}
+@media(max-width:400px){.q-brand-divider,.q-brand-descriptor{display:none}.q-header{padding:10px}.q-brand-copy strong{font-size:33px}}
+@media(prefers-reduced-motion:reduce){.q-header-brand{transition:none}}
+</style></head><body><div id="app" class="app"></div><div id="toast" class="toast hide" role="status" aria-live="polite"></div><script type="module" src="./app.js?v=20261108-9"></script></body></html>
