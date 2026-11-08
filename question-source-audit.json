@@ -15,90 +15,120 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 577,
+    "source_identified_not_independently_cross_checked": 567,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 23
+    "source_directly_cross_checked_in_this_audit": 33
   },
   "records": [
     {
       "id": "p01",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الصافات، الآيات 139–144",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 37:139–144; Yunus and the whale",
+        "url": "https://quran.com/37/139-144"
+      }
     },
     {
       "id": "p02",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة هود، الآية 37",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 11:37; Nuh commanded to build the ark",
+        "url": "https://quran.com/11/37"
+      }
     },
     {
       "id": "p03",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأنبياء، الآيات 68–69",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 21:68–69; Ibrahim and the fire",
+        "url": "https://quran.com/21/68-69"
+      }
     },
     {
       "id": "p04",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة يوسف، الآيات 36–49",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 12:36–49; Yusuf interprets dreams",
+        "url": "https://quran.com/12/36-49"
+      }
     },
     {
       "id": "p05",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة طه، الآيات 11–14",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 28:29–30; Musa called at Mount Tur",
+        "url": "https://quran.com/28/29-30"
+      }
     },
     {
       "id": "p06",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة هود، الآية 50",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 11:50; Hud sent to Ad",
+        "url": "https://quran.com/11/50"
+      }
     },
     {
       "id": "p07",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة هود، الآية 61",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 11:61; Salih sent to Thamud",
+        "url": "https://quran.com/11/61"
+      }
     },
     {
       "id": "p08",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة النمل، الآية 16",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 27:16; Sulayman taught speech of birds",
+        "url": "https://quran.com/27/16"
+      }
     },
     {
       "id": "p09",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأعراف، الآية 73",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 7:73; Salih and the she-camel",
+        "url": "https://quran.com/7/73"
+      }
     },
     {
       "id": "p10",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأنبياء، الآية 83",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 21:83; Ayyub's supplication",
+        "url": "https://quran.com/21/83"
+      }
     },
     {
       "id": "c01",
