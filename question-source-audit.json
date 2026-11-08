@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 580,
+    "source_identified_not_independently_cross_checked": 577,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 20
+    "source_directly_cross_checked_in_this_audit": 23
   },
   "records": [
     {
@@ -224,9 +224,12 @@
       "id": "v01",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الشرح، الآية 5",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 94:5; phrase 'فإن مع العسر يسرا'",
+        "url": "https://quran.com/94/5"
+      }
     },
     {
       "id": "v02",
@@ -3751,9 +3754,12 @@
       "id": "p57",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة آل عمران، الآية 39",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 3:39; description of Yahya",
+        "url": "https://quran.com/3/39"
+      }
     },
     {
       "id": "p58",
@@ -4120,9 +4126,12 @@
       "id": "p62",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأنبياء، الآية 85",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 21:85; Isma'il, Idris and Dhul-Kifl",
+        "url": "https://quran.com/21/85"
+      }
     },
     {
       "id": "p63",
