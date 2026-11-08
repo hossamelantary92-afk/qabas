@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 557,
+    "source_identified_not_independently_cross_checked": 542,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 43
+    "source_directly_cross_checked_in_this_audit": 58
   },
   "records": [
     {
@@ -214,17 +214,23 @@
       "id": "g01",
       "category": "general",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 8؛ صحيح مسلم، حديث 16",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 8 — five pillars of Islam",
+        "url": "https://sunnah.com/bukhari:8"
+      }
     },
     {
       "id": "g02",
       "category": "general",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 8",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 8a — six articles of faith",
+        "url": "https://sunnah.com/muslim:8a"
+      }
     },
     {
       "id": "g03",
@@ -246,9 +252,12 @@
       "id": "g05",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة النمل، الآية 30",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 27:30 — Basmalah within Sulayman's letter",
+        "url": "https://quran.com/27/30"
+      }
     },
     {
       "id": "v01",
@@ -309,41 +318,56 @@
       "id": "h01",
       "category": "hadith",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 1؛ صحيح مسلم، حديث 1907",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 1 — actions are by intentions",
+        "url": "https://sunnah.com/bukhari:1"
+      }
     },
     {
       "id": "h02",
       "category": "hadith",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 55",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 55a — religion is sincere counsel",
+        "url": "https://sunnah.com/muslim:55a"
+      }
     },
     {
       "id": "h03",
       "category": "hadith",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 13؛ صحيح مسلم، حديث 45",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 13 — love for one's brother",
+        "url": "https://sunnah.com/bukhari:13"
+      }
     },
     {
       "id": "h04",
       "category": "hadith",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 10؛ صحيح مسلم، حديث 40",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 10 — the tongue and hands",
+        "url": "https://sunnah.com/bukhari:10"
+      }
     },
     {
       "id": "h05",
       "category": "hadith",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 223",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 223 — purification is half of faith",
+        "url": "https://sunnah.com/muslim:223"
+      }
     },
     {
       "id": "l01",
@@ -405,9 +429,12 @@
       "id": "r03",
       "category": "ramadan",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة القدر، الآية 3",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 97:3 — Laylat al-Qadr better than a thousand months",
+        "url": "https://quran.com/97/3"
+      }
     },
     {
       "id": "r04",
@@ -429,41 +456,56 @@
       "id": "q01",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة يوسف، الآية 33",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 12:33 — Yusuf says prison is dearer",
+        "url": "https://quran.com/12/33"
+      }
     },
     {
       "id": "q02",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة مريم، الآية 30",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 19:30 — Isa: I am the servant of Allah",
+        "url": "https://quran.com/19/30"
+      }
     },
     {
       "id": "q03",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة القصص، الآية 16",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 28:16 — Musa asks for forgiveness",
+        "url": "https://quran.com/28/16"
+      }
     },
     {
       "id": "q04",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة يوسف، الآية 92",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 12:92 — Yusuf forgives his brothers",
+        "url": "https://quran.com/12/92"
+      }
     },
     {
       "id": "q05",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة القصص، الآية 24",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 28:24 — Musa's supplication after watering",
+        "url": "https://quran.com/28/24"
+      }
     },
     {
       "id": "x01",
@@ -485,9 +527,12 @@
       "id": "x03",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 8؛ صحيح مسلم، حديث 8",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 8 — zakat is pillar of Islam, not article of faith",
+        "url": "https://sunnah.com/bukhari:8"
+      }
     },
     {
       "id": "x04",
