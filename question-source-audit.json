@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 534,
+    "source_identified_not_independently_cross_checked": 526,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 66
+    "source_directly_cross_checked_in_this_audit": 74
   },
   "records": [
     {
@@ -621,17 +621,23 @@
       "id": "c11",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأحزاب، الآية 37",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 33:37 — Zayd named explicitly; Tafsir identifies Zayd ibn Harithah",
+        "url": "https://quran.com/33/37"
+      }
     },
     {
       "id": "c12",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 664",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 664 — Prophet instructs Abu Bakr to lead prayers",
+        "url": "https://sunnah.com/bukhari:664"
+      }
     },
     {
       "id": "c13",
@@ -645,9 +651,12 @@
       "id": "c14",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 617",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 617 — Bilal calls at night before Ibn Umm Maktum",
+        "url": "https://sunnah.com/bukhari:617"
+      }
     },
     {
       "id": "c15",
@@ -999,41 +1008,56 @@
       "id": "c16",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3744",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 3744 — Abu Ubaidah called the trustworthy man of this ummah",
+        "url": "https://sunnah.com/bukhari:3744"
+      }
     },
     {
       "id": "c17",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4059",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4059 — Sa'd at Uhud, 'shoot, may my parents be ransomed for you'",
+        "url": "https://sunnah.com/bukhari:4059"
+      }
     },
     {
       "id": "c18",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 6038",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 6038 — Anas served ten years",
+        "url": "https://sunnah.com/bukhari:6038"
+      }
     },
     {
       "id": "c19",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4987",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4987 — Uthman commissioned copies of the Quran",
+        "url": "https://sunnah.com/bukhari:4987"
+      }
     },
     {
       "id": "c20",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3706؛ صحيح مسلم، حديث 2404",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 2404a — Ali's rank to the Prophet like Aaron to Moses, without subsequent prophethood",
+        "url": "https://sunnah.com/muslim:2404a"
+      }
     },
     {
       "id": "g11",
