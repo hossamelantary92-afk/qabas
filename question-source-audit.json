@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 542,
+    "source_identified_not_independently_cross_checked": 534,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 58
+    "source_directly_cross_checked_in_this_audit": 66
   },
   "records": [
     {
@@ -134,33 +134,45 @@
       "id": "c01",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، كتاب فضائل أصحاب النبي ﷺ؛ وكتب التاريخ الإسلامي",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 7219: public pledge of allegiance to Abu Bakr after the Prophet's death",
+        "url": "https://sunnah.com/bukhari:7219"
+      }
     },
     {
       "id": "c02",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4262",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4262: Khalid described as a Sword of Allah",
+        "url": "https://sunnah.com/bukhari:4262"
+      }
     },
     {
       "id": "c03",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، كتاب الأذان؛ حديث 604",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 604: the Prophet ordered Bilal to call to prayer",
+        "url": "https://sunnah.com/bukhari:604"
+      }
     },
     {
       "id": "c04",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة التوبة، الآية 40؛ صحيح البخاري، حديث 3653",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 3653: Abu Bakr accompanying the Prophet in the cave",
+        "url": "https://sunnah.com/bukhari:3653"
+      }
     },
     {
       "id": "c05",
@@ -174,17 +186,23 @@
       "id": "c06",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، كتاب العلم، حديث 118",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 118: Abu Hurayrah's extensive hadith transmission",
+        "url": "https://sunnah.com/bukhari:118"
+      }
     },
     {
       "id": "c07",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 2979",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 2979: Asma bint Abi Bakr called Dhat al-Nitaqayn",
+        "url": "https://sunnah.com/bukhari:2979"
+      }
     },
     {
       "id": "c08",
@@ -206,9 +224,12 @@
       "id": "c10",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4262",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4262: Khalid takes Mu'tah flag after three commanders",
+        "url": "https://sunnah.com/bukhari:4262"
+      }
     },
     {
       "id": "g01",
@@ -405,9 +426,12 @@
       "id": "l05",
       "category": "places",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة التوبة، الآية 40؛ صحيح البخاري، حديث 3905",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 3905: cave on Mount Thawr during the Hijra",
+        "url": "https://sunnah.com/bukhari:3905"
+      }
     },
     {
       "id": "r01",
