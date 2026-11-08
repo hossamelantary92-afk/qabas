@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 526,
+    "source_identified_not_independently_cross_checked": 514,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 74
+    "source_directly_cross_checked_in_this_audit": 86
   },
   "records": [
     {
@@ -1397,17 +1397,23 @@
       "id": "c22",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 143",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 143: Ibn Abbas and the Prophet's prayer for his understanding of religion",
+        "url": "https://sunnah.com/bukhari:143"
+      }
     },
     {
       "id": "c23",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4347",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4347: Muadh ibn Jabal sent to Yemen to teach the faith",
+        "url": "https://sunnah.com/bukhari:4347"
+      }
     },
     {
       "id": "c24",
@@ -1421,9 +1427,12 @@
       "id": "c25",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 2401",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 2401: angels' modesty toward Uthman ibn Affan",
+        "url": "https://sunnah.com/muslim:2401"
+      }
     },
     {
       "id": "g16",
@@ -1757,17 +1766,23 @@
       "id": "c27",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 2846",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 2846: al-Zubayr the Prophet's hawari",
+        "url": "https://sunnah.com/bukhari:2846"
+      }
     },
     {
       "id": "c28",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4999",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4999: Abdullah ibn Masud named first in list of four Quran teachers",
+        "url": "https://sunnah.com/bukhari:4999"
+      }
     },
     {
       "id": "c29",
@@ -1784,9 +1799,12 @@
       "id": "c30",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4959",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4959: Prophet recites Surat al-Bayyinah to Ubayy ibn Kab",
+        "url": "https://sunnah.com/bukhari:4959"
+      }
     },
     {
       "id": "g21",
@@ -2115,25 +2133,34 @@
       "id": "c31",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة النور، الآيات 11–20؛ صحيح البخاري، حديث 4750",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4750: revelation of Quran 24:11–20 about Aishah's innocence",
+        "url": "https://sunnah.com/bukhari:4750"
+      }
     },
     {
       "id": "c32",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4986",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 4986: Zayd ibn Thabit tasked to compile Quran during Abu Bakr's caliphate",
+        "url": "https://sunnah.com/bukhari:4986"
+      }
     },
     {
       "id": "c33",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3803؛ صحيح مسلم، حديث 2466",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 3803: throne shook at the death of Saad ibn Muadh",
+        "url": "https://sunnah.com/bukhari:3803"
+      }
     },
     {
       "id": "c34",
@@ -2492,17 +2519,23 @@
       "id": "c37",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 1122",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 1121–1122: Abdullah ibn Umar praised and encouraged for night prayer",
+        "url": "https://sunnah.com/bukhari:1122"
+      }
     },
     {
       "id": "c38",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 2491",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih Muslim 2491: prayer for guidance of Abu Hurayrah's mother",
+        "url": "https://sunnah.com/muslim:2491"
+      }
     },
     {
       "id": "c39",
@@ -3226,9 +3259,12 @@
       "id": "c48",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 5050",
-      "evidence": null
+      "evidence": {
+        "label": "Sahih al-Bukhari 5050: Ibn Masud recites Surat al-Nisa to the Prophet",
+        "url": "https://sunnah.com/bukhari:5050"
+      }
     },
     {
       "id": "c49",
