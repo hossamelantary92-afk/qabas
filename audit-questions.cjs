@@ -25,7 +25,7 @@ for(const r of questions){
   const d=old[id]||extra[id];
   if(!d||d.length!==3||new Set([answer,...d].map(normalize)).size!==4)errs.push('Invalid choices: '+id);
   if(source.length<12||/كتب التراجم|كتب الفقه|التراث|الجغرافيا|المعالم|كتب السيرة|كتب المناسك|المراجع التاريخية|الموقع الجغرافي/.test(source))generic.push(id);
-  if(/يحتاج|خلاف|اختلف|درجة|بحسب بعض|روايات/.test(source+' '+explanation))ambiguous.push(id);
+  if(/يحتاج مراجعة|موضع خلاف|اختلف العلماء|بحسب بعض الروايات|رواية ضعيفة|درجة الحديث|مختلف في صحته|خلاف فقهي/.test(source+' '+explanation))ambiguous.push(id);
 }
 const similar=[];
 for(let i=0;i<questions.length;i++)for(let j=i+1;j<questions.length;j++){
