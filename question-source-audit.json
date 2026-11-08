@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 567,
+    "source_identified_not_independently_cross_checked": 557,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 33
+    "source_directly_cross_checked_in_this_audit": 43
   },
   "records": [
     {
@@ -265,33 +265,45 @@
       "id": "v02",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الإخلاص، الآية 1",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 112:1; Allah is One",
+        "url": "https://quran.com/112/1"
+      }
     },
     {
       "id": "v03",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة طه، الآية 114",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 20:114; increase me in knowledge",
+        "url": "https://quran.com/20/114"
+      }
     },
     {
       "id": "v04",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة البقرة، الآية 153",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 2:153; Allah is with the patient",
+        "url": "https://quran.com/2/153"
+      }
     },
     {
       "id": "v05",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة البقرة، الآية 286",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 2:286; beyond its capacity",
+        "url": "https://quran.com/2/286"
+      }
     },
     {
       "id": "h01",
@@ -623,41 +635,56 @@
       "id": "v06",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الكوثر، الآية 1",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 108:1; Al-Kawthar",
+        "url": "https://quran.com/108/1"
+      }
     },
     {
       "id": "v07",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الرحمن، الآية 13",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 55:13; which favors",
+        "url": "https://quran.com/ar-rahman/13"
+      }
     },
     {
       "id": "v08",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الحجرات، الآية 13",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 49:13; created nations and tribes",
+        "url": "https://quran.com/49/13"
+      }
     },
     {
       "id": "v09",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة القصص، الآية 77",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 28:77; seek the Hereafter",
+        "url": "https://quran.com/28/77"
+      }
     },
     {
       "id": "v10",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الزمر، الآية 53",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 39:53; do not despair of mercy",
+        "url": "https://quran.com/39/53"
+      }
     },
     {
       "id": "h06",
@@ -983,9 +1010,12 @@
       "id": "v11",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة العصر، الآيتان 1–2",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 103:1–2; by time",
+        "url": "https://quran.com/103/1-2"
+      }
     },
     {
       "id": "v12",
