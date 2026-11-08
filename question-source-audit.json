@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 514,
+    "source_identified_not_independently_cross_checked": 500,
     "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 86
+    "source_directly_cross_checked_in_this_audit": 100
   },
   "records": [
     {
@@ -2541,9 +2541,12 @@
       "id": "c39",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 5048؛ صحيح مسلم، حديث 793",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 5048 — Abu Musa al-Ashari given a melodious voice like the family of David",
+        "url": "https://sunnah.com/bukhari:5048"
+      }
     },
     {
       "id": "c40",
@@ -2880,33 +2883,45 @@
       "id": "c41",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 2778",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 2778 — Uthman equipped the Army of Hardship and the Paradise promise",
+        "url": "https://sunnah.com/bukhari:2778"
+      }
     },
     {
       "id": "c42",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 1982",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 1982 — prayer for Anas to have wealth, children and blessing",
+        "url": "https://sunnah.com/bukhari:1982"
+      }
     },
     {
       "id": "c43",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3911؛ خبر أبي أيوب",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 3911 — Abu Ayyub offers his home upon the Prophet's arrival in Madinah",
+        "url": "https://sunnah.com/bukhari:3911"
+      }
     },
     {
       "id": "c44",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 2731–2732",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 2731–2732 — Umm Salamah advises the Prophet at Hudaybiyyah to sacrifice and shave",
+        "url": "https://sunnah.com/bukhari:2732"
+      }
     },
     {
       "id": "c45",
@@ -3243,17 +3258,23 @@
       "id": "c46",
       "category": "companions",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 4358؛ صحيح مسلم، حديث 2384",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 4358 — Amr ibn al-As commanded Dhat al-Salasil expedition",
+        "url": "https://sunnah.com/bukhari:4358"
+      }
     },
     {
       "id": "c47",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح مسلم، حديث 810",
-      "evidence": null
+      "evidence": {
+        "label": "Muslim 810 — Abu al-Mundhir (Ubayy ibn Ka'b) and the greatest Quranic verse",
+        "url": "https://sunnah.com/muslim:810"
+      }
     },
     {
       "id": "c48",
@@ -3270,9 +3291,12 @@
       "id": "c49",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 3 — Khadijah comforts the Prophet after the first revelation",
+        "url": "https://sunnah.com/bukhari:3"
+      }
     },
     {
       "id": "c50",
@@ -3633,17 +3657,23 @@
       "id": "c54",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 30",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 30 — Abu Dharr reproached for insulting someone's mother",
+        "url": "https://sunnah.com/bukhari:30"
+      }
     },
     {
       "id": "c55",
       "category": "companions",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 1968",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 1968 — brotherhood between Salman and Abu al-Darda",
+        "url": "https://sunnah.com/bukhari:1968"
+      }
     },
     {
       "id": "g46",
@@ -3994,9 +4024,12 @@
       "id": "c58",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "سورة الأحزاب، الآية 37",
-      "evidence": null
+      "evidence": {
+        "label": "Quran 33:37 with Ibn Kathir tafsir — Zayd and Zaynab bint Jahsh marriage story",
+        "url": "https://quran.com/33/37"
+      }
     },
     {
       "id": "c59",
@@ -4010,9 +4043,12 @@
       "id": "c60",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 5086",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 5086 — Safiyyah manumitted, her freedom counted as dowry",
+        "url": "https://sunnah.com/bukhari:5086"
+      }
     },
     {
       "id": "g51",
@@ -4358,9 +4394,12 @@
       "id": "c62",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 3909",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 3909 — Abdullah ibn al-Zubayr first child born to emigrants at Madinah",
+        "url": "https://sunnah.com/bukhari:3909"
+      }
     },
     {
       "id": "c63",
@@ -4754,9 +4793,12 @@
       "id": "c69",
       "category": "companions",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
+      "status": "source_directly_cross_checked_in_this_audit",
       "source": "صحيح البخاري، حديث 2048",
-      "evidence": null
+      "evidence": {
+        "label": "Bukhari 2048 — Abdur-Rahman ibn Awf and Sad ibn al-Rabi brotherhood",
+        "url": "https://sunnah.com/bukhari:2048"
+      }
     },
     {
       "id": "c70",
