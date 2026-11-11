@@ -1,13 +1,13 @@
 {
-  "audit_date": "2026-11-08",
+  "audit_date": "2026-11-11",
   "project": "Qabas",
   "repository": "hossamelantary92-afk/qabas",
   "purpose": "Transparent question-level provenance ledger, not an academic certification.",
   "scopes": {
     "structural_validation": "All 602 entries, 600 active",
     "source_reference_standardization": "Initially 118 heuristic issues; only two withheld old records remain flagged by current heuristic",
-    "direct_external_source_cross_checks": "Subset of entries with verifiable direct links, explicitly tagged individually",
-    "comprehensive_independent_source_authentication": "Not yet completed for every record"
+    "direct_external_source_cross_checks": "Reconciled original 100 and newly documented 100 (3 overlapping IDs), plus 25 newly fetched Quran-text checks.",
+    "comprehensive_independent_source_authentication": "Not yet completed for all 602 records; audit status means primary-text source comparison, not peer review."
   },
   "status_definitions": {
     "source_directly_cross_checked_in_this_audit": "Compared against a specific source page searched/fetched in this or the preceding editorial audit; does not imply external peer review.",
@@ -15,9 +15,9 @@
     "withheld_pending_review": "Question excluded from the active library due to unresolved issues."
   },
   "counts": {
-    "source_identified_not_independently_cross_checked": 500,
-    "withheld_pending_review": 2,
-    "source_directly_cross_checked_in_this_audit": 100
+    "source_directly_cross_checked_in_this_audit": 222,
+    "source_identified_not_independently_cross_checked": 378,
+    "withheld_pending_review": 2
   },
   "records": [
     {
@@ -589,33 +589,45 @@
       "id": "p12",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآية 85",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآية 85؛ https://quran.com/7/85",
+      "evidence": {
+        "label": "Quran 7/85 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/7/85"
+      }
     },
     {
       "id": "p13",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآيات 7–9",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآيات 7–9؛ https://quran.com/19/7",
+      "evidence": {
+        "label": "Quran 19/7 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/19/7"
+      }
     },
     {
       "id": "p14",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة سبأ، الآيات 10–11",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة سبأ، الآيات 10–11؛ https://quran.com/34/10",
+      "evidence": {
+        "label": "Quran 34/10 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/34/10"
+      }
     },
     {
       "id": "p15",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القصص، الآية 7",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القصص، الآية 7؛ https://quran.com/28/7",
+      "evidence": {
+        "label": "Quran 28/7 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/28/7"
+      }
     },
     {
       "id": "c11",
@@ -673,17 +685,23 @@
       "id": "g06",
       "category": "general",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفاتحة، الآية 2",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفاتحة، الآية 2؛ https://quran.com/1/2",
+      "evidence": {
+        "label": "Quran 1/2 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/1/2"
+      }
     },
     {
       "id": "g07",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 255",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 255؛ https://quran.com/2/255",
+      "evidence": {
+        "label": "Quran 2/255 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/2/255"
+      }
     },
     {
       "id": "g08",
@@ -888,9 +906,12 @@
       "id": "q06",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآية 23",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآية 23؛ https://quran.com/7/23",
+      "evidence": {
+        "label": "Quran 7/23 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/7/23"
+      }
     },
     {
       "id": "q07",
@@ -904,41 +925,56 @@
       "id": "q08",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة آل عمران، الآية 38",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة آل عمران، الآية 38؛ https://quran.com/3/38",
+      "evidence": {
+        "label": "Quran 3/38 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/3/38"
+      }
     },
     {
       "id": "q09",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآية 10",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآية 10؛ https://quran.com/20/10",
+      "evidence": {
+        "label": "Quran 20/10 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/20/10"
+      }
     },
     {
       "id": "q10",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الكهف، الآية 95",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الكهف، الآية 95؛ https://quran.com/18/95",
+      "evidence": {
+        "label": "Quran 18/95 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/18/95"
+      }
     },
     {
       "id": "x06",
       "category": "correct",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإخلاص، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإخلاص، الآية 1؛ https://quran.com/112/1",
+      "evidence": {
+        "label": "Quran 112/1 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/112/1"
+      }
     },
     {
       "id": "x07",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 255",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 255؛ https://quran.com/2/255",
+      "evidence": {
+        "label": "Quran 2/255 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/2/255"
+      }
     },
     {
       "id": "x08",
@@ -960,49 +996,67 @@
       "id": "x10",
       "category": "correct",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 37",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 37؛ https://quran.com/11/37",
+      "evidence": {
+        "label": "Quran 11/37 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/11/37"
+      }
     },
     {
       "id": "p16",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآية 63",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآية 63؛ https://quran.com/26/63",
+      "evidence": {
+        "label": "Quran 26/63 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/26/63"
+      }
     },
     {
       "id": "p17",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأنبياء، الآية 89",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأنبياء، الآية 89؛ https://quran.com/21/89",
+      "evidence": {
+        "label": "Quran 21/89 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/21/89"
+      }
     },
     {
       "id": "p18",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآيات 10–19",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآيات 10–19؛ https://quran.com/12/19",
+      "evidence": {
+        "label": "Quran 12/19 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/12/19"
+      }
     },
     {
       "id": "p19",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة العنكبوت، الآية 14",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة العنكبوت، الآية 14؛ https://quran.com/29/14",
+      "evidence": {
+        "label": "Quran 29/14 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/29/14"
+      }
     },
     {
       "id": "p20",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآية 12",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآية 12؛ https://quran.com/19/12",
+      "evidence": {
+        "label": "Quran 19/12 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/19/12"
+      }
     },
     {
       "id": "c16",
@@ -1114,33 +1168,45 @@
       "id": "v12",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 88",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 88؛ https://quran.com/11/88",
+      "evidence": {
+        "label": "Quran 11/88 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/11/88"
+      }
     },
     {
       "id": "v13",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الضحى، الآية 2",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الضحى، الآية 2؛ https://quran.com/93/2",
+      "evidence": {
+        "label": "Quran 93/2 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/93/2"
+      }
     },
     {
       "id": "v14",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الرعد، الآية 11",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الرعد، الآية 11؛ https://quran.com/13/11",
+      "evidence": {
+        "label": "Quran 13/11 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/13/11"
+      }
     },
     {
       "id": "v15",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفلق، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفلق، الآية 1؛ https://quran.com/113/1",
+      "evidence": {
+        "label": "Quran 113/1 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/113/1"
+      }
     },
     {
       "id": "h11",
@@ -1269,25 +1335,34 @@
       "id": "q11",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 126",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 126؛ https://quran.com/2/126",
+      "evidence": {
+        "label": "Quran 2/126 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/2/126"
+      }
     },
     {
       "id": "q12",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النمل، الآية 40",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النمل، الآية 40؛ https://quran.com/27/40",
+      "evidence": {
+        "label": "Quran 27/40 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/27/40"
+      }
     },
     {
       "id": "q13",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآية 86",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآية 86؛ https://quran.com/12/86",
+      "evidence": {
+        "label": "Quran 12/86 — directly reviewed 2026-11-11",
+        "url": "https://quran.com/12/86"
+      }
     },
     {
       "id": "q14",
@@ -2093,41 +2168,56 @@
       "id": "p31",
       "category": "prophets",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآية 83",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآية 83؛ https://quran.com/26/83",
+      "evidence": {
+        "label": "Question p31 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/83"
+      }
     },
     {
       "id": "p32",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآيتان 123–128",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآيتان 123–128؛ https://quran.com/26/128",
+      "evidence": {
+        "label": "Question p32 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/128"
+      }
     },
     {
       "id": "p33",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأنبياء، الآية 79",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأنبياء، الآية 79؛ https://quran.com/21/79",
+      "evidence": {
+        "label": "Question p33 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/21/79"
+      }
     },
     {
       "id": "p34",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآيتان 54–55",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآيتان 54–55؛ https://quran.com/19/55",
+      "evidence": {
+        "label": "Question p34 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/55"
+      }
     },
     {
       "id": "p35",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الصافات، الآية 102",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الصافات، الآية 102؛ https://quran.com/37/102",
+      "evidence": {
+        "label": "Question p35 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/37/102"
+      }
     },
     {
       "id": "c31",
@@ -2471,41 +2561,56 @@
       "id": "p36",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "صحيح البخاري، حديث 1976",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "صحيح البخاري، حديث 1976؛ https://sunnah.com/bukhari:1976",
+      "evidence": {
+        "label": "Question p36 — documented primary text check on 2026-11-11",
+        "url": "https://sunnah.com/bukhari:1976"
+      }
     },
     {
       "id": "p37",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإسراء، الآية 102",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإسراء، الآية 102؛ https://quran.com/17/102",
+      "evidence": {
+        "label": "Question p37 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/17/102"
+      }
     },
     {
       "id": "p38",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأنبياء، الآيتان 78–79",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأنبياء، الآيتان 78–79؛ https://quran.com/21/79",
+      "evidence": {
+        "label": "Question p38 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/21/79"
+      }
     },
     {
       "id": "p39",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآيات 83–88",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآيات 83–88؛ https://quran.com/20/88",
+      "evidence": {
+        "label": "Question p39 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/20/88"
+      }
     },
     {
       "id": "p40",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 71؛ سورة الذاريات، الآية 28",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 71؛ سورة الذاريات، الآية 28؛ https://quran.com/11/71",
+      "evidence": {
+        "label": "Question p40 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/71"
+      }
     },
     {
       "id": "c36",
@@ -2560,41 +2665,56 @@
       "id": "g31",
       "category": "general",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "المصحف الشريف، ترتيب السور",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "المصحف الشريف، ترتيب السور؛ https://quran.com/2/1",
+      "evidence": {
+        "label": "Question g31 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/2/1"
+      }
     },
     {
       "id": "g32",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفيل، الآيات 1–5",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفيل، الآيات 1–5؛ https://quran.com/105/1",
+      "evidence": {
+        "label": "Question g32 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/105/1"
+      }
     },
     {
       "id": "g33",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإنسان، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإنسان، الآية 1؛ https://quran.com/76/1",
+      "evidence": {
+        "label": "Question g33 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/76/1"
+      }
     },
     {
       "id": "g34",
       "category": "general",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الماعون، الآيتان 4–5",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الماعون، الآيتان 4–5؛ https://quran.com/107/4",
+      "evidence": {
+        "label": "Question g34 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/107/4"
+      }
     },
     {
       "id": "g35",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة التكاثر، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة التكاثر، الآية 1؛ https://quran.com/102/1",
+      "evidence": {
+        "label": "Question g35 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/102/1"
+      }
     },
     {
       "id": "v31",
@@ -2803,81 +2923,111 @@
       "id": "x31",
       "category": "correct",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة العنكبوت، الآية 41",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة العنكبوت، الآية 41؛ https://quran.com/29/41",
+      "evidence": {
+        "label": "Question x31 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/29/41"
+      }
     },
     {
       "id": "x32",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفيل، الآيات 1–5",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفيل، الآيات 1–5؛ https://quran.com/105/1",
+      "evidence": {
+        "label": "Question x32 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/105/1"
+      }
     },
     {
       "id": "x33",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القصص، الآية 4؛ مواضع كثيرة",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القصص، الآية 4؛ مواضع كثيرة؛ https://quran.com/28/4",
+      "evidence": {
+        "label": "Question x33 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/28/4"
+      }
     },
     {
       "id": "x34",
       "category": "correct",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآية 7",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآية 7؛ https://quran.com/19/7؛ النص الكامل لسورة الكهف: https://quran.com/ar/al-kahf",
+      "evidence": {
+        "label": "Question x34 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/7"
+      }
     },
     {
       "id": "x35",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآيات 46–48",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآيات 46–48؛ https://quran.com/7/46",
+      "evidence": {
+        "label": "Question x35 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/7/46"
+      }
     },
     {
       "id": "p41",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة ص، الآية 42",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة ص، الآية 42؛ https://quran.com/38/42",
+      "evidence": {
+        "label": "Question p41 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/38/42"
+      }
     },
     {
       "id": "p42",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآيتان 165–166",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآيتان 165–166؛ https://quran.com/26/165",
+      "evidence": {
+        "label": "Question p42 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/165"
+      }
     },
     {
       "id": "p43",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآية 42",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآية 42؛ https://quran.com/19/42",
+      "evidence": {
+        "label": "Question p43 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/42"
+      }
     },
     {
       "id": "p44",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النمل، الآيتان 20–21",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النمل، الآيتان 20–21؛ https://quran.com/27/21",
+      "evidence": {
+        "label": "Question p44 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/27/21"
+      }
     },
     {
       "id": "p45",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة آل عمران، الآية 45",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة آل عمران، الآية 45؛ https://quran.com/3/45",
+      "evidence": {
+        "label": "Question p45 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/3/45"
+      }
     },
     {
       "id": "c41",
@@ -2935,41 +3085,56 @@
       "id": "g36",
       "category": "general",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "صحيح البخاري، أبواب مواقيت الصلاة وصفة الصلاة؛ الإجماع العملي",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "صحيح البخاري، أبواب مواقيت الصلاة وصفة الصلاة؛ الإجماع العملي؛ https://sunnah.com/bukhari:1091",
+      "evidence": {
+        "label": "Question g36 — documented primary text check on 2026-11-11",
+        "url": "https://sunnah.com/bukhari:1091"
+      }
     },
     {
       "id": "g37",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "صحيح البخاري، كتاب الاستسقاء",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "صحيح البخاري، كتاب الاستسقاء؛ https://sunnah.com/bukhari:1012",
+      "evidence": {
+        "label": "Question g37 — documented primary text check on 2026-11-11",
+        "url": "https://sunnah.com/bukhari:1012"
+      }
     },
     {
       "id": "g38",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفتح، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفتح، الآية 1؛ https://quran.com/48/1",
+      "evidence": {
+        "label": "Question g38 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/48/1"
+      }
     },
     {
       "id": "g39",
       "category": "general",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "مطالع سور الجن والكافرون والإخلاص والفلق والناس",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "خمس سور",
+      "evidence": {
+        "label": "Question g39 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/72/1"
+      }
     },
     {
       "id": "g40",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآيات 163–166",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآيات 163–166؛ https://quran.com/7/163",
+      "evidence": {
+        "label": "Question g40 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/7/163"
+      }
     },
     {
       "id": "v36",
@@ -3178,81 +3343,111 @@
       "id": "x36",
       "category": "correct",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة التين، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة التين، الآية 1؛ https://quran.com/95/1",
+      "evidence": {
+        "label": "Question x36 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/95/1"
+      }
     },
     {
       "id": "x37",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الكهف، الآيات 60–82",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الكهف، الآيات 60–82؛ https://quran.com/18/60",
+      "evidence": {
+        "label": "Question x37 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/18/60"
+      }
     },
     {
       "id": "x38",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "المصحف الشريف، ترتيب الأجزاء",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "المصحف الشريف، ترتيب الأجزاء؛ https://quran.com/67/1",
+      "evidence": {
+        "label": "Question x38 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/67/1"
+      }
     },
     {
       "id": "x39",
       "category": "correct",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القصص، الآية 76",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القصص، الآية 76؛ https://quran.com/28/76",
+      "evidence": {
+        "label": "Question x39 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/28/76"
+      }
     },
     {
       "id": "x40",
       "category": "correct",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النجم، الآية 49",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النجم، الآية 49؛ https://quran.com/53/49؛ النص الكامل لسورة النجم: https://quran.com/ar/an-najm",
+      "evidence": {
+        "label": "Question x40 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/53/49"
+      }
     },
     {
       "id": "p46",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 124",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 124؛ https://quran.com/2/124",
+      "evidence": {
+        "label": "Question p46 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/2/124"
+      }
     },
     {
       "id": "p47",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآية 5",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآية 5؛ https://quran.com/12/5",
+      "evidence": {
+        "label": "Question p47 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/12/5"
+      }
     },
     {
       "id": "p48",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآية 144",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآية 144؛ https://quran.com/7/144",
+      "evidence": {
+        "label": "Question p48 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/7/144"
+      }
     },
     {
       "id": "p49",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآية 56",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآية 56؛ https://quran.com/19/56",
+      "evidence": {
+        "label": "Question p49 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/56"
+      }
     },
     {
       "id": "p50",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النمل، الآية 19",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النمل، الآية 19؛ https://quran.com/27/19",
+      "evidence": {
+        "label": "Question p50 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/27/19"
+      }
     },
     {
       "id": "c46",
@@ -3311,9 +3506,9 @@
       "category": "general",
       "difficulty": 1,
       "status": "source_directly_cross_checked_in_this_audit",
-      "source": "جامعة الملك سعود، دراسة عن مقدار الصلاة المفروضة (الفجر ركعتان، الظهر والعصر والعشاء أربع، والمغرب ثلاث)؛ https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/book_6.pdf",
+      "source": "الموسوعة الفقهية (الدرر السنية)، أوقات الصلوات المفروضة؛ https://ketabonline.com/ar/books/4641/read?index=1036256%2F1036320%2F1036335%2F1036345&page=88&part=1",
       "evidence": {
-        "label": "King Saud University academic text",
+        "label": "Question g41 — documented primary text check on 2026-11-11",
         "url": "https://education.ksu.edu.sa/sites/education.ksu.edu.sa/files/attach/book_6.pdf"
       }
     },
@@ -3321,73 +3516,100 @@
       "id": "g42",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "المصحف الشريف، ترتيب سور الكهف ومريم وطه",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "المصحف الشريف، ترتيب سور الكهف ومريم وطه؛ https://quran.com/19/1",
+      "evidence": {
+        "label": "Question g42 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/1"
+      }
     },
     {
       "id": "g43",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النور، الآية 35",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النور، الآية 35؛ https://quran.com/24/35",
+      "evidence": {
+        "label": "Question g43 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/24/35"
+      }
     },
     {
       "id": "g44",
       "category": "general",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "المصحف الشريف، سورة الكوثر",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "المصحف الشريف، سورة الكوثر؛ https://quran.com/108/1",
+      "evidence": {
+        "label": "Question g44 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/108/1"
+      }
     },
     {
       "id": "g45",
       "category": "general",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الرحمن، الآية 9",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الرحمن، الآية 9؛ https://quran.com/55/9",
+      "evidence": {
+        "label": "Question g45 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/55/9"
+      }
     },
     {
       "id": "v41",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الماعون، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الماعون، الآية 1؛ https://quran.com/107/1",
+      "evidence": {
+        "label": "Question v41 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/107/1"
+      }
     },
     {
       "id": "v42",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة النحل، الآية 90",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة النحل، الآية 90؛ https://quran.com/16/90",
+      "evidence": {
+        "label": "Question v42 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/16/90"
+      }
     },
     {
       "id": "v43",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإسراء، الآية 24",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإسراء، الآية 24؛ https://quran.com/17/24",
+      "evidence": {
+        "label": "Question v43 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/17/24"
+      }
     },
     {
       "id": "v44",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة آل عمران، الآية 185",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة آل عمران، الآية 185؛ https://quran.com/3/185",
+      "evidence": {
+        "label": "Question v44 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/3/185"
+      }
     },
     {
       "id": "v45",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الزلزلة، الآية 7",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الزلزلة، الآية 7؛ https://quran.com/99/7",
+      "evidence": {
+        "label": "Question v45 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/99/7"
+      }
     },
     {
       "id": "h41",
@@ -3513,41 +3735,56 @@
       "id": "q41",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعراف، الآية 126",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعراف، الآية 126؛ https://quran.com/7/126",
+      "evidence": {
+        "label": "Question q41 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/7/126"
+      }
     },
     {
       "id": "q42",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 247",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 247؛ https://quran.com/2/247",
+      "evidence": {
+        "label": "Question q42 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/2/247"
+      }
     },
     {
       "id": "q43",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة إبراهيم، الآية 40",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة إبراهيم، الآية 40؛ https://quran.com/14/40",
+      "evidence": {
+        "label": "Question q43 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/14/40"
+      }
     },
     {
       "id": "q44",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآية 12",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآية 12؛ https://quran.com/26/12",
+      "evidence": {
+        "label": "Question q44 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/12"
+      }
     },
     {
       "id": "q45",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يس، الآية 25",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يس، الآية 25؛ https://quran.com/36/25",
+      "evidence": {
+        "label": "Question q45 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/36/25"
+      }
     },
     {
       "id": "x41",
@@ -3593,41 +3830,56 @@
       "id": "p51",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآيات 84–85",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآيات 84–85؛ https://quran.com/11/85",
+      "evidence": {
+        "label": "Question p51 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/85"
+      }
     },
     {
       "id": "p52",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآيات 54–55",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآيات 54–55؛ https://quran.com/19/55",
+      "evidence": {
+        "label": "Question p52 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/55"
+      }
     },
     {
       "id": "p53",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأنعام، الآية 86",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأنعام، الآية 86؛ https://quran.com/6/86",
+      "evidence": {
+        "label": "Question p53 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/6/86"
+      }
     },
     {
       "id": "p54",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الصافات، الآيات 124–125",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الصافات، الآيات 124–125؛ https://quran.com/37/125",
+      "evidence": {
+        "label": "Question p54 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/37/125"
+      }
     },
     {
       "id": "p55",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة المائدة، الآية 46",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة المائدة، الآية 46؛ https://quran.com/5/46",
+      "evidence": {
+        "label": "Question p55 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/5/46"
+      }
     },
     {
       "id": "c51",
@@ -3719,41 +3971,56 @@
       "id": "v46",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإخلاص، الآيتان 1–2",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإخلاص، الآيتان 1–2؛ https://quran.com/112/2",
+      "evidence": {
+        "label": "Question v46 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/112/2"
+      }
     },
     {
       "id": "v47",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإسراء، الآية 37",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإسراء، الآية 37؛ https://quran.com/17/37",
+      "evidence": {
+        "label": "Question v47 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/17/37"
+      }
     },
     {
       "id": "v48",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الذاريات، الآية 56",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الذاريات، الآية 56؛ https://quran.com/51/56",
+      "evidence": {
+        "label": "Question v48 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/51/56"
+      }
     },
     {
       "id": "v49",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الحجرات، الآية 10",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الحجرات، الآية 10؛ https://quran.com/49/10",
+      "evidence": {
+        "label": "Question v49 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/49/10"
+      }
     },
     {
       "id": "v50",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإخلاص، الآية 3",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإخلاص، الآية 3؛ https://quran.com/112/3",
+      "evidence": {
+        "label": "Question v50 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/112/3"
+      }
     },
     {
       "id": "h46",
@@ -3885,41 +4152,56 @@
       "id": "q46",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الفجر، الآية 24",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الفجر، الآية 24؛ https://quran.com/89/24",
+      "evidence": {
+        "label": "Question q46 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/89/24"
+      }
     },
     {
       "id": "q47",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة مريم، الآية 23",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة مريم، الآية 23؛ https://quran.com/19/23",
+      "evidence": {
+        "label": "Question q47 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/19/23"
+      }
     },
     {
       "id": "q48",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآية 14",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآية 14؛ https://quran.com/20/14",
+      "evidence": {
+        "label": "Question q48 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/20/14"
+      }
     },
     {
       "id": "q49",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة غافر، الآية 38",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة غافر، الآية 38؛ https://quran.com/40/38",
+      "evidence": {
+        "label": "Question q49 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/40/38"
+      }
     },
     {
       "id": "q50",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القمر، الآية 10",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القمر، الآية 10؛ https://quran.com/54/10",
+      "evidence": {
+        "label": "Question q50 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/54/10"
+      }
     },
     {
       "id": "x46",
@@ -3965,18 +4247,21 @@
       "id": "p56",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة إبراهيم، الآية 35",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة إبراهيم، الآية 35؛ https://quran.com/14/35",
+      "evidence": {
+        "label": "Question p56 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/14/35"
+      }
     },
     {
       "id": "p57",
       "category": "prophets",
       "difficulty": 2,
       "status": "source_directly_cross_checked_in_this_audit",
-      "source": "سورة آل عمران، الآية 39",
+      "source": "سورة آل عمران، الآية 39؛ https://quran.com/3/39",
       "evidence": {
-        "label": "Quran 3:39; description of Yahya",
+        "label": "Question p57 — documented primary text check on 2026-11-11",
         "url": "https://quran.com/3/39"
       }
     },
@@ -3984,25 +4269,34 @@
       "id": "p58",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآية 169",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآية 169؛ https://quran.com/26/169",
+      "evidence": {
+        "label": "Question p58 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/169"
+      }
     },
     {
       "id": "p59",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القلم، الآية 4",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القلم، الآية 4؛ https://quran.com/68/4",
+      "evidence": {
+        "label": "Question p59 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/68/4"
+      }
     },
     {
       "id": "p60",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 88",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 88؛ https://quran.com/11/88",
+      "evidence": {
+        "label": "Question p60 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/88"
+      }
     },
     {
       "id": "c56",
@@ -4094,41 +4388,56 @@
       "id": "v51",
       "category": "verse",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القدر، الآية 1",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القدر، الآية 1؛ https://quran.com/97/1",
+      "evidence": {
+        "label": "Question v51 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/97/1"
+      }
     },
     {
       "id": "v52",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الإسراء، الآية 80",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الإسراء، الآية 80؛ https://quran.com/17/80",
+      "evidence": {
+        "label": "Question v52 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/17/80"
+      }
     },
     {
       "id": "v53",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأعلى، الآية 14",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأعلى، الآية 14؛ https://quran.com/87/14",
+      "evidence": {
+        "label": "Question v53 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/87/14"
+      }
     },
     {
       "id": "v54",
       "category": "verse",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الانفطار، الآية 13",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الانفطار، الآية 13؛ https://quran.com/82/13",
+      "evidence": {
+        "label": "Question v54 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/82/13"
+      }
     },
     {
       "id": "v55",
       "category": "verse",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآية 21",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآية 21؛ https://quran.com/12/21",
+      "evidence": {
+        "label": "Question v55 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/12/21"
+      }
     },
     {
       "id": "h51",
@@ -4263,41 +4572,56 @@
       "id": "q51",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآية 46",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآية 46؛ https://quran.com/20/46",
+      "evidence": {
+        "label": "Question q51 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/20/46"
+      }
     },
     {
       "id": "q52",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة المائدة، الآية 21",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة المائدة، الآية 21؛ https://quran.com/5/21",
+      "evidence": {
+        "label": "Question q52 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/5/21"
+      }
     },
     {
       "id": "q53",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة لقمان، الآية 11",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة لقمان، الآية 11؛ https://quran.com/31/11",
+      "evidence": {
+        "label": "Question q53 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/31/11"
+      }
     },
     {
       "id": "q54",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 249",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 249؛ https://quran.com/2/249",
+      "evidence": {
+        "label": "Question q54 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/2/249"
+      }
     },
     {
       "id": "q55",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة المائدة، الآية 25",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة المائدة، الآية 25؛ https://quran.com/5/25",
+      "evidence": {
+        "label": "Question q55 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/5/25"
+      }
     },
     {
       "id": "x51",
@@ -4343,18 +4667,21 @@
       "id": "p61",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 56",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 56؛ https://quran.com/11/56",
+      "evidence": {
+        "label": "Question p61 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/56"
+      }
     },
     {
       "id": "p62",
       "category": "prophets",
       "difficulty": 2,
       "status": "source_directly_cross_checked_in_this_audit",
-      "source": "سورة الأنبياء، الآية 85",
+      "source": "سورة الأنبياء، الآية 85؛ https://quran.com/21/85",
       "evidence": {
-        "label": "Quran 21:85; Isma'il, Idris and Dhul-Kifl",
+        "label": "Question p62 — documented primary text check on 2026-11-11",
         "url": "https://quran.com/21/85"
       }
     },
@@ -4362,25 +4689,34 @@
       "id": "p63",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآية 51",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآية 51؛ https://quran.com/12/51",
+      "evidence": {
+        "label": "Question p63 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/12/51"
+      }
     },
     {
       "id": "p64",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة المؤمنون، الآية 50",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة المؤمنون، الآية 50؛ https://quran.com/23/50؛ سورة الأنبياء، الآية 91؛ https://quran.com/21/91",
+      "evidence": {
+        "label": "Question p64 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/23/50"
+      }
     },
     {
       "id": "p65",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الأنبياء، الآية 112",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الأنبياء، الآية 112؛ https://quran.com/21/112",
+      "evidence": {
+        "label": "Question p65 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/21/112"
+      }
     },
     {
       "id": "c61",
@@ -4638,41 +4974,56 @@
       "id": "q56",
       "category": "quotes",
       "difficulty": 1,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 42",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 42؛ https://quran.com/11/42",
+      "evidence": {
+        "label": "Question q56 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/42"
+      }
     },
     {
       "id": "q57",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة يوسف، الآية 100",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة يوسف، الآية 100؛ https://quran.com/12/100",
+      "evidence": {
+        "label": "Question q57 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/12/100"
+      }
     },
     {
       "id": "q58",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة العنكبوت، الآية 26",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة العنكبوت، الآية 26؛ https://quran.com/29/26؛ تفسير الطبري: https://quran.ksu.edu.sa/tafseer/tabary/sura29-aya26.html ؛ تفسير البغوي: https://quran.ksu.edu.sa/tafseer/baghawy/sura29-aya26.html",
+      "evidence": {
+        "label": "Question q58 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/29/26"
+      }
     },
     {
       "id": "q59",
       "category": "quotes",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآية 97",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآية 97؛ https://quran.com/20/97",
+      "evidence": {
+        "label": "Question q59 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/20/97"
+      }
     },
     {
       "id": "q60",
       "category": "quotes",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة غافر، الآية 44",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة غافر، الآية 44؛ https://quran.com/40/44",
+      "evidence": {
+        "label": "Question q60 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/40/44"
+      }
     },
     {
       "id": "x56",
@@ -4718,41 +5069,56 @@
       "id": "p66",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة طه، الآية 42",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة طه، الآية 42؛ https://quran.com/20/42",
+      "evidence": {
+        "label": "Question p66 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/20/42"
+      }
     },
     {
       "id": "p67",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة الشعراء، الآية 127",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة الشعراء، الآية 127؛ https://quran.com/26/127",
+      "evidence": {
+        "label": "Question p67 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/26/127"
+      }
     },
     {
       "id": "p68",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة البقرة، الآية 87",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة البقرة، الآية 87؛ https://quran.com/2/87",
+      "evidence": {
+        "label": "Question p68 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/2/87"
+      }
     },
     {
       "id": "p69",
       "category": "prophets",
       "difficulty": 2,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة القصص، الآية 11",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة القصص، الآية 11؛ https://quran.com/28/11",
+      "evidence": {
+        "label": "Question p69 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/28/11"
+      }
     },
     {
       "id": "p70",
       "category": "prophets",
       "difficulty": 3,
-      "status": "source_identified_not_independently_cross_checked",
-      "source": "سورة هود، الآية 48",
-      "evidence": null
+      "status": "source_directly_cross_checked_in_this_audit",
+      "source": "سورة هود، الآية 48؛ https://quran.com/11/48",
+      "evidence": {
+        "label": "Question p70 — documented primary text check on 2026-11-11",
+        "url": "https://quran.com/11/48"
+      }
     },
     {
       "id": "p71",
