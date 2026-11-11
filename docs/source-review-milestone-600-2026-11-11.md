@@ -11,7 +11,7 @@ Date: 2026-11-11
 - **7** opened and compared to relevant online source text/official source (r05, x02, c52, l51, l56, l58, l60).
 - **11** have contextual source links, but those sources do not independently establish the full question claim (g03, g04, l01, l02, l03, l04, r02, x01, c24, c26, c36).
 - **32** have editorially reviewed descriptive citations without a newly established direct source URL.
-- This final batch comprised 23 companions, 18 locations, 2 general, 2 Ramadan, 2 true/false, and 3 other original legacy entries as directly listed below. (Per-question table supersedes any section totals.)
+- This final batch comprised **24 companions, 20 locations, 2 general, 2 Ramadan, and 2 true/false** questions; these category totals were recalculated from the 50 unique question IDs in the canonical ledger.
 
 ## Directly verified examples
 - [Sahih Muslim 1162b](https://sunnah.com/muslim:1162) supports that Ashura is the tenth of Muharram, for r05.
